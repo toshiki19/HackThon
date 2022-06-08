@@ -8,7 +8,7 @@ import uvicorn
 
 app = FastAPI()
 
-
+print()
 class NeuralNetwork(nn.Module):
     def __init__(self):
         super(NeuralNetwork, self).__init__()
